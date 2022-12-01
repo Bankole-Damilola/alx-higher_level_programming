@@ -11,11 +11,11 @@ else:
 output = f"Last digit of {number} is {lastDigit}"
 
 if lastDigit > 5:
-    print (f"{output} and is greater than 5")
+    print(f"{output} and is greater than 5")
 elif lastDigit == 0 and lastDigit % 10 != 0:
-    print (f"{output} and is 0")
+    print(f"{output} and is 0")
 else:
-    print (f"{output} and is less than 6 and not 0")
+    print(f"{output} and is less than 6 and not 0")
 
 
 
